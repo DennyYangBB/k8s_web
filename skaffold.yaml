@@ -24,9 +24,9 @@ build:
     gitCommit: {}
   local:
     useBuildkit: false
-deploy:
-  kubectl:
-    manifests:
+#deploy:
+#  kubectl:
+#    manifests:
 #     - ./kubernetes-manifests/go-api.yaml
 #     - ./kubernetes-manifests/java-api.yaml
 #     - ./kubernetes-manifests/net-api.yaml
